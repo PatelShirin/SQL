@@ -1,1 +1,1 @@
-select * from studmast inner join studtran on studmast.rollno = studtran.rollno;
+select * from studmast inner join studtran on studmast.rollno = studtran.rollno
