@@ -1,2 +1,8 @@
-select * from studmast a inner join studtran b on a.rollno = b.rollno;
-select rollno, sum(marks) from studtran group by rollno order by rollno;
+SELECT
+    a.rollno,
+    a.name,
+    b.subject,
+    b.marks
+FROM
+    studmast a
+    INNER JOIN studtran b ON a.rollno = b.rollno
