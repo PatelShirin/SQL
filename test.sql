@@ -5,4 +5,4 @@ SELECT
     b.marks
 FROM
     studmast a
-    INNER JOIN studtran b ON a.rollno = b.rollno
+    INNER JOIN studtran b ON a.rollno = b.rollno;
