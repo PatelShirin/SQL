@@ -5,4 +5,6 @@ SELECT
     b.marks
 FROM
     studmast a
-    left JOIN studtran b ON a.rollno = b.rollno;   
+    left JOIN studtran b ON a.rollno = b.rollno; 
+    
+select * from studtran;    
