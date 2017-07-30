@@ -8,7 +8,7 @@ FROM
     left JOIN studtran b ON a.rollno = b.rollno; 
     
 select * from studmast; 
-select * from studtran;
+
 
 
  
