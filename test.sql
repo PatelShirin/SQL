@@ -10,6 +10,7 @@ FROM
     group by a.rollno, a.name,b.subject,b.marks;
     
 select * from studmast; 
+select * from studtran;
 
 
 
