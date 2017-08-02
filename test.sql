@@ -2,12 +2,15 @@ SELECT
     a.rollno,
     a.name,
     b.subject,
-    b.marks
+    b.marks,
+    count(a.rollno) cnt
 FROM
     studmast a
-    left JOIN studtran b ON a.rollno = b.rollno; 
+    JOIN studtran b ON a.rollno = b.rollno
+    group by a.rollno, a.name,b.subject,b.marks;
     
 select * from studmast; 
+
 
 
 
